@@ -13,12 +13,15 @@
   </main>
 
   <script>
+    let URL = "https://api.login.yahoo.com/oauth2/request_auth";
 
     let options = {
       client_id: 'dj0yJmk9QnZ0Y3JQaHdOQnlzJmQ9WVdrOWJVUTJSVlpqTkdVbWNHbzlNQS0tJnM9Y29uc3VtZXJzZWNyZXQmc3Y9MCZ4PTc5',
-      redirect_uri: 'http://localhost:3000/oauth',
-      scope: 'openid mail-r',
-      state: 'asldfjdfs'
+      redirect_uri: 'https://localhost:3000/oauth',
+      response_type: 'code',
+      // scope: 'openid mail-r',
+      // state: 'asldfjdfs',
+      // nonce: '2710199'
     }
 
     let QueryString = Object.keys(options).map((key) => {
@@ -26,7 +29,6 @@
     }).join("&");
 
     let authURL = `${URL}?${QueryString}`;
-    console.log(authURL);
     let link = document.getElementById('oauth');
     link.setAttribute('href', authURL);
 
