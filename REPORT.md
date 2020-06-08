@@ -32,7 +32,7 @@ Fatema Al-Zahraa Owedah
 
 ### Ratings and Reviews
 #### Documentation
-Thoughts go here
+![process](./assets/AuthCodeFlow_39f4d4c8c.jpg)
 
 #### Systems Requirements
 Above and beyond 'node' and 'linux', what dependencies or core requirements exist for this framework?
@@ -41,23 +41,41 @@ Can it play at AWS/Heroku?
 yes in Heroku.
 
 #### Ramp-Up Projections
-How long would/should it take a team of mid-junior developers to become productive?Three month.
+How long would/should it take a team of mid-junior developers to become productive?Three months.
 
 #### Community Support and Adoption levels
-How popular is this framework? What big companies are running on it? How is it "seen" in the general JS community?  Is there an active community of developers supporting and growing it?
+1. How popular is this framework?  
+   Express -> the most popular Node. js framework available for the JavaScript community on GitHub  
+2. What big companies are running on it?  
+  - Netflix.
+  - Linkedin. 
+  - Trello. 
+  - Uber. 
+  - PayPal. 
+  - Medium. 
+  - eBay. 
+  - NASA.
+3. How is it "seen" in the general JS community?  
+   - Most developers adore Node.js for its raw speed, and when it comes down to framework selection, a perfectionist may disdain any performance jeopardy  
+   - it provides a thin layer on top of Node.js with web application features such as basic routing, middleware, template engine and static files serving, so the drastic I/O performance of Node.js doesn’t get compromised.  
+
+4. Is there an active community of developers supporting and growing it?  
+    yes like GitHub  
 
 
 ### Links and Resources
-* [framework](http://xyz.com)
-* [docs](http://xyz.com)
-* [examples/tutorials](http://xyz.com)
+* [framework](https://www.yahoo.com/)
+* [docs](https://developer.yahoo.com/oauth2/guide/flows_authcode/#step-5-exchange-refresh-token-for-new-access-token
+)
+* ![examples/tutorials](./assets/tutorialYahoo.PNG)
 
 ### Code Demos
-* [live/running application](http://xyz.com)
-* [code repository](http://xyz.com)
+* [live/running application](http://xyz.com) (not finish yet ...)
+* [code repository](https://github.com/bushra-401-advanced-javascript/OAuth)
 
 ### Operating Instructions
 If someone were to download your repo (above), what steps do they need to take to run the application
+* `.env` requirment
 * `npm start`,`nodemon`
 * Endpoint: `/oauth`
   * Returns a Token
