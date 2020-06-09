@@ -17,11 +17,11 @@
 
     let options = {
       client_id: 'dj0yJmk9QnZ0Y3JQaHdOQnlzJmQ9WVdrOWJVUTJSVlpqTkdVbWNHbzlNQS0tJnM9Y29uc3VtZXJzZWNyZXQmc3Y9MCZ4PTc5',
-      redirect_uri: 'https://localhost:3000/oauth',
       response_type: 'code',
-      // scope: 'openid mail-r',
+      redirect_uri: 'https://localhost:3000/oauth',
+      scope: 'email',
+      nonce: 'n-0S6_WzA2Mj'
       // state: 'asldfjdfs',
-      // nonce: '2710199'
     }
 
     let QueryString = Object.keys(options).map((key) => {
